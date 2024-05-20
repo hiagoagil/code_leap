@@ -1,0 +1,59 @@
+:root {
+  --bg: #dddddd;
+  --primary: #000000;
+  --bg-box: #ffffff;
+  --overlay: #777777cc;
+  --border: #777777;
+}
+* {
+  box-sizing: border-box;
+  border: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-size: 70%;
+}
+
+html,
+#root,
+.App {
+  height: 100vh;
+}
+body {
+  margin: 0;
+
+  background-color: var(--bg);
+}
+
+.standard-form {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: var(--bg-box);
+}
+.standard-form button:last-child {
+  align-self: flex-end;
+}
+.header {
+  background-color: var(--primary);
+  color: var(--bg-box);
+  padding: 1rem;
+}
+p {
+  font-weight: 450;
+}
+
+.aria-only {
+  height: 0;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+}

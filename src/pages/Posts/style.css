@@ -1,0 +1,31 @@
+.posts-container {
+  min-height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  margin: 0 320px;
+  gap: 2rem;
+  background-color: var(--bg-box);
+}
+
+.posts-container > header {
+  align-self: stretch;
+}
+.posts-container > section {
+  padding: 2rem;
+}
+.posts-container > section > form {
+  border: 1px solid var(--border);
+}
+.posts-container > section > .modal-wrapper > .content {
+  width: 45vw;
+}
+
+@media screen and (max-width: 1024px) {
+  .posts-container {
+    margin: 0 2vw;
+  }
+  .posts-container > section > .modal-wrapper > .content {
+    width: 90vw;
+  }
+}

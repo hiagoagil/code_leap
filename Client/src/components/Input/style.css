@@ -1,0 +1,15 @@
+label {
+  display: block;
+}
+
+label p {
+  font-size: 1.4rem;
+  width: 100%;
+}
+label input {
+  margin-top: 1rem;
+  width: 100%;
+  border: 1px solid var(--border);
+  padding: 0.5em;
+  border-radius: 0.3em;
+}

@@ -1,0 +1,44 @@
+.postCard {
+  margin: 3rem 0;
+}
+
+.postCard header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  background-color: var(--primary);
+  color: var(--bg-box);
+}
+
+.postCard header h2 {
+  flex: 1;
+}
+
+.postCard header .icon {
+  height: 2.5em;
+  width: 2.5em;
+  flex-shrink: 0;
+  /* color: red; */
+  cursor: pointer;
+}
+.postCard > section > span {
+  color: var(--border);
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.postCard > section > span > p {
+  font-weight: 500;
+}
+.postCard > section > p {
+  padding: 1rem 0;
+  white-space: pre-line;
+  word-break: break-all;
+}
+.postCard section {
+  padding: 2rem;
+  border: 1px solid var(--border);
+  font-size: 1.5rem;
+  border-top: none;
+}

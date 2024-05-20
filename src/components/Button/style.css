@@ -1,0 +1,24 @@
+button {
+  padding: 0.5em 1.5em;
+  font-size: 1.3rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button.btn-fill {
+  background-color: var(--primary);
+  color: var(--bg-box);
+}
+
+button.btn-outline {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+
+button.btn-upper {
+  text-transform: uppercase;
+}
+button:disabled {
+  background-color: var(--bg);
+  cursor: not-allowed;
+}
